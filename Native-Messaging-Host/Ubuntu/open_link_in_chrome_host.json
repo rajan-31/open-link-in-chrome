@@ -1,0 +1,9 @@
+{
+    "name": "open_link_in_chrome_host",
+    "description": "Native messaging host for open-link-in-chrome extension",
+    "path": "/home/rajan/0.Projects/Firefox-Extensions/open-link-in-chrome/Native-Messaging-Host/Ubuntu/open_link_in_chrome_host",
+    "type": "stdio",
+    "allowed_extensions": [
+        "open-link-in-chrome@rajan-31"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "open-link-in-chrome",
+    "version": "1.0",
+    "description": "Add context menu option to open links in chrome",
+    "icons": {
+        "48": "icons/open-link-in-chrome-48.png",
+        "96": "icons/open-link-in-chrome-96.png"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "open-link-in-chrome@rajan-31",
+            "strict_min_version": "50.0"
+        }
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "nativeMessaging"
+    ]
+}
