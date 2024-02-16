@@ -1,3 +1,8 @@
+# Open Link in Chrome
+
+Firefox extension that adds context menu option (right click on link) to open links in Chrome browser.
+
+
 ## How does it work? and why do I need an external program?
 
 Firefox extensions can't open/access other browsers, so we need to use something which allow us to do it. That thing is Native Messasing which allows extension and Native Messaging Host to communicate who can open other browsers. The executable file you see in [releases][1] for your OS is that Native Messaging Host.
