@@ -1,6 +1,9 @@
 # Open Link in Chrome
+<a href="https://addons.mozilla.org/en-US/firefox/addon/open-link-in-chrome/"><img src="./Extension/icons/open-link-in-chrome-48.png" height=30 /></a>
 
 Firefox extension that adds context menu option (right click on link) to open links in Chrome browser.
+
+![Demo SS](Demo_SS.png)
 
 
 ## How does it work? and why do I need an external program?
@@ -9,7 +12,7 @@ Firefox extensions can't open/access other browsers, so we need to use something
 
 ## Installation
 
-- Install extension from https://addons.mozilla.org
+- Install extension from https://addons.mozilla.org/en-US/firefox/addon/open-link-in-chrome
 
 __Note__: If you don't trust the executable files provided in [releases][1], then you can generate your own excutables. See [here](#generate-your-own-excutable-files) how to do it.
 
