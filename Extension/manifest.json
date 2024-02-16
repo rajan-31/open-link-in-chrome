@@ -3,6 +3,8 @@
     "name": "open-link-in-chrome",
     "version": "1.0",
     "description": "Add context menu option to open links in chrome",
+    "homepage_url ": "https://github.com/rajan-31/open-link-in-chrome",
+    "author": "Rajan",
     "icons": {
         "48": "icons/open-link-in-chrome-48.png",
         "96": "icons/open-link-in-chrome-96.png"
