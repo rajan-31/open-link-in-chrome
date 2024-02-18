@@ -3,6 +3,14 @@
 
 Firefox extension that adds context menu option (right click on link) to open links in Chrome browser.
 
+__Works on__
+
+- Windows
+- Ubuntu
+- Linux distros (Not tested; Should work by following Ubuntu related steps)
+
+_Mac isn't suported because I have no way to test it, feel free to make a PR._
+
 ![Demo SS](Demo_SS.png)
 
 
