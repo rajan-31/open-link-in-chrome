@@ -26,7 +26,7 @@ __Note__: If you don't trust the executable files provided in [releases][1], the
 
 ### Ubuntu
 
-- From __Ubuntu__ [releases][1] download `open_link_in_chrome_host.json` and `open_link_in_chrome_host`
+- From [__Ubuntu__ releases](https://github.com/rajan-31/open-link-in-chrome/releases/tag/Ubuntu) download `open_link_in_chrome_host.json` and `open_link_in_chrome_host`
 
 - Move `open_link_in_chrome_host` anywhere you want, where you will not accidently delete it
 
@@ -36,7 +36,7 @@ __Note__: If you don't trust the executable files provided in [releases][1], the
 
 ### Windows
 
-- From __Windows__ [releases][1] download `open_link_in_chrome_host.json` and `open_link_in_chrome_host.exe`
+- From [__Windows__ releases](https://github.com/rajan-31/open-link-in-chrome/releases/tag/Windows) download `open_link_in_chrome_host.json` and `open_link_in_chrome_host.exe`
 
 - Move both files anywhere you want where you will not accidently delete them
 
@@ -44,11 +44,17 @@ __Note__: If you don't trust the executable files provided in [releases][1], the
 
 - Add Registry key by executing following commands in __Powershell__,  Replace `<path to open_link_in_chrome_host.json>` with exact path of `open_link_in_chrome_host.json`
 
-    ```
+    ```powershell
     New-Item -Path "HKLM:\SOFTWARE\Mozilla\NativeMessagingHosts\open_link_in_chrome_host" -Force | Out-Null
 
     New-ItemProperty -Path "HKLM:\SOFTWARE\Mozilla\NativeMessagingHosts\open_link_in_chrome_host" -Name "(Default)" -Value "<path to open_link_in_chrome_host.json>" -PropertyType String -Force
     ```
+
+    Above commands only add registry key,which is needed by firefox. You can do it manually if you know what you are doing.
+
+    Path: `HKEY_LOCAL_MACHINE\SOFTWARE\Mozilla\NativeMessagingHosts`
+    (Default) Value: `<path to open_link_in_chrome_host.json>`
+
 
 ---
 
